@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+
+header.header img {
+    width: 150px;
+    height: 60px;
+}
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.header {
+    /* display: flex !important;
+    align-items: center !important; */
+    justify-content: center !important;
+    position: fixed;
+    text-align: center;
+    z-index: 2;
+    background-color: black;
+    width: 100%;
+}
+
+
+header.header ul.navbar-nav li a{
+    color: rgb(255, 255, 255) ;
+    /* text-decoration: none; */
+    /* background: #cb0505; */
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px !important;
+    width: 140px;
+    justify-content: space-between;
+    transition: 0.4 all;
+    padding: 0;
+}
+
+
+header.header ul.navbar-nav li a:hover {
+    color: #aa59dd ;
+    transition: 0.4 all;
+    padding: 0;
+}
+
+
+section.card-area{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+section.card-area .card {
+    margin: 0 auto;
+}
+
+section.card-area img.card-img-top {
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* ! This is Feedback CSS */
+
+#feedback-form-wrapper #floating-icon > button {
+    position: fixed;
+    right: 0;
+    top: 70%;
+    transform: rotate(-90deg) translate(50%, -50%);
+    transform-origin: right;
+  }
+  
+  #feedback-form-wrapper .rating-input-wrapper input[type="radio"] {
+    display: none;
+  }
+  #feedback-form-wrapper .rating-input-wrapper input[type="radio"] ~ span {
+    cursor: pointer;
+  }
+  #feedback-form-wrapper .rating-input-wrapper input[type="radio"]:checked ~ span {
+    background-color: #4261dc;
+    color: #fff;
+  }
+  #feedback-form-wrapper .rating-labels > label{
+    font-size: 14px;
+      color: #777;
+  }
+  
+
+  section.content-sec .footer-logo img{
+    width: 200px;
+    height: 80px;
+    margin-top:10px;
+    margin-bottom:10px;
+    justify-content: flex-start;
+  }
+
+  section.footer-sec a.text-reset:hover {
+    color: #aa59dd !important;
+    transition:cubic-bezier()
+}
+
+  section.footer-sec a.text-reset{
+    font-size:large;
+}
+
+/* Styles required only for the example above */
+.scrollspy-example-collapsible {
+    position: relative;
+    height: 200px;
+    overflow: auto;
+  }
+
+
+  .batches {
+    /* width: 61rem; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    background: black;
+}
+
+.batches {
+    /* width: 61rem; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+section.batches div.container{
+    background-color: #43B02A;
+    width: 100%;
+    height: 30%;
+
+}
+
+.del-se-adv {
+    padding: 1.0625rem 2rem 1.0625rem 1.25rem;
+    display: grid;
+    grid-gap: 1.5625rem;
+    color: #ffffff;
+    font-weight: 600;
+    background: rgba(255, 255, 255, 0.05);
+    margin: 0.625rem;
+}
+
+.del-se-adv:hover{
+    color: #aa59dd;
+}
+
+
+.del-se-adv div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+.del-se-adv-text {
+    line-height: 1.8725rem;
+}
+
+.del-se-adv:first-child {
+    grid-template-columns: 2.375rem max-content;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.del-se-adv:nth-child(2) {
+    grid-template-columns: 2.30125rem max-content;
+    margin-top: 0;
+}
+
+.del-se-adv:nth-child(3) {
+    grid-template-columns: 1.560625rem max-content;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+.del-se-adv:nth-child(4) {
+    grid-template-columns: 2.46125rem max-content;
+    margin-left: 0;
+}
+
+.del-se-adv:nth-child(5) {
+    grid-template-columns: 2.7425rem max-content;
+    margin-right: 0;
+}
